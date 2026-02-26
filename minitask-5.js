@@ -6,7 +6,7 @@ const account = {
 // console.log(account)
 
 let inputPasswordBaru = "8912812"
-if (inputPasswordBaru.length < 5) {
+if (inputPasswordBaru.length <= 5) {
     console.log("password minimal 5 karakter")
 } else{
     const updatePassword = {
